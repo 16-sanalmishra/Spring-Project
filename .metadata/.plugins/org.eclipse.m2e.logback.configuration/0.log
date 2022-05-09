@@ -1222,3 +1222,5 @@
 2022-05-09 18:41:44,563 [Worker-69: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sanamishra\SportyShoes\sportyshoes\src\test\resources
 2022-05-09 18:42:08,857 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2022-05-09 18:42:08,857 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sanamishra\SportyShoes\sportyshoes\src\main\resources
+2022-05-09 18:42:08,859 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-09 18:42:08,859 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sanamishra\SportyShoes\sportyshoes\src\test\resources
