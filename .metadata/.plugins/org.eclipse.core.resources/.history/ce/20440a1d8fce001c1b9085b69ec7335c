@@ -1,0 +1,19 @@
+package com.training.project.sportyshoes.UserDao.Impl;
+
+import org.springframework.orm.hibernate5.HibernateTemplate;
+import org.springframework.stereotype.Repository;
+
+import com.training.project.sportyshoes.UserDao.UserDao;
+import com.training.project.sportyshoes.entity.User;
+
+@Repository
+public class UserDaoImpl implements UserDao {
+	private HibernateTemplate ht;
+	
+	@Override
+	public int create(User user) {
+		return (int) ht.save(user);
+	}
+	
+	
+}

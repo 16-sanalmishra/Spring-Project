@@ -1,0 +1,17 @@
+package com.training.project.sportyshoes.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+import com.training.project.sportyshoes.Service.UserService;
+
+@Controller
+public class UserController {
+	@Autowired UserService us;
+	
+	@RequestMapping("/userRegistration")
+	public String showFirst() {
+		return "showFirst";
+	}
+}

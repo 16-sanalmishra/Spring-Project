@@ -1,0 +1,5 @@
+package com.training.project.sportyshoes.UserDao;
+
+public interface UserDao {
+
+}

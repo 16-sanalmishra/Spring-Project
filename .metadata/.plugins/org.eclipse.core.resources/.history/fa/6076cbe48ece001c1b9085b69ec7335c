@@ -1,0 +1,12 @@
+package com.training.project.sportyshoes.Service.Impl;
+
+import org.springframework.stereotype.Service;
+
+import com.training.project.sportyshoes.Service.UserService;
+import com.training.project.sportyshoes.UserDao.UserDao;
+
+@Service
+public class UserServiceImpl implements UserService {
+
+	private UserDao ud;
+}

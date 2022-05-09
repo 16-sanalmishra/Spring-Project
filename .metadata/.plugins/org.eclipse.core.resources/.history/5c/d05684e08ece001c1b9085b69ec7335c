@@ -1,0 +1,5 @@
+package com.training.project.sportyshoes.Service.Impl;
+
+public class UserServiceImpl {
+
+}

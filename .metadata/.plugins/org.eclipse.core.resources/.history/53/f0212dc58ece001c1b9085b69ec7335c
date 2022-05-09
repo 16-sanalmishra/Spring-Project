@@ -1,0 +1,11 @@
+package com.training.project.sportyshoes.Service;
+
+import com.training.project.sportyshoes.entity.User;
+
+
+public interface UserService {
+	
+	int save(User user);
+	
+
+}

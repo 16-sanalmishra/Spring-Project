@@ -1,0 +1,5 @@
+package com.training.project.sportyshoes.UserDao.Impl;
+
+public class UserDaoImpl {
+
+}

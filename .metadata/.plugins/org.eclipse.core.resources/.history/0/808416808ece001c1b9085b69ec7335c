@@ -1,0 +1,5 @@
+package com.training.project.sportyshoes.Service;
+
+public interface UserService {
+
+}

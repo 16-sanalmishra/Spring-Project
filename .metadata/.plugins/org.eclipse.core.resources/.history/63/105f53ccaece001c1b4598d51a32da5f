@@ -1,0 +1,38 @@
+package com.training.project.sportyshoes.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.ModelMap;
+import org.springframework.web.bind.annotation.ModelAttribute;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+
+import com.training.project.sportyshoes.Service.UserService;
+import com.training.project.sportyshoes.entity.User;
+
+@Controller
+public class UserController {
+	@Autowired 
+	UserService us;
+	
+//	@RequestMapping("/userregistration")
+//	public ModelAndView showFirst() {
+//		ModelAndView mv = new ModelAndView();
+//		mv.setViewName("showFirst");
+//		return mv;
+
+	@RequestMapping("/register")
+	public String showRegistrationPage() {
+		return "showFirst";
+	}
+	
+	@RequestMapping(value = "/tosomewhere" , method = RequestMethod.POST)
+	public String showDetails(@ModelAttribute("user") User user, ModelMap model) {
+		us.save(user);
+		user.toString();
+		model.addAttribute(us);
+		return null;
+		
+	}
+}
+

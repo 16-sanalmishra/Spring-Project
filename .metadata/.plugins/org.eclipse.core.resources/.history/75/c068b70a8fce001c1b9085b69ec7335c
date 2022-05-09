@@ -1,0 +1,19 @@
+package com.training.project.sportyshoes.Service.Impl;
+
+import org.springframework.stereotype.Service;
+
+import com.training.project.sportyshoes.Service.UserService;
+import com.training.project.sportyshoes.UserDao.UserDao;
+import com.training.project.sportyshoes.entity.User;
+
+@Service
+public class UserServiceImpl implements UserService {
+
+	private UserDao ud;
+
+	@Override
+	public int save(User user) {
+		ud.create(user);
+		return 0;
+	}
+}

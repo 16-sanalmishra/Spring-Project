@@ -1,0 +1,8 @@
+INDEX VERSION 1.4+C:\Users\sanamishra\SportyShoes\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+3827077509.index
+559825294.index
+189086666.index
+3565597209.index
+1483040427.index
+3416030216.index
+52671658.index

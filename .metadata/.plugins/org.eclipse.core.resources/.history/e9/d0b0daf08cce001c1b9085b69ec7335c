@@ -1,0 +1,5 @@
+package com.training.project.sportyshoes.entity;
+
+public class User {
+
+}
